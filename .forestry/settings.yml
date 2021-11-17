@@ -5,6 +5,11 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
+  path: content/docs/testdoc
+  label: Test doc
+  match: "**/*"
+  read_only: false
+- type: document
   path: README.md
   label: README
   read_only: true
